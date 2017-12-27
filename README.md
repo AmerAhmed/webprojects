@@ -1,2 +1,2 @@
-# Mina egna experiment med webbteknik
-> När jag testar något på egen hand använder jag detta project. 
+# My own experiments with web technology
+- When I test something on my own, I use this project.

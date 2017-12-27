@@ -1,6 +1,6 @@
 /*
 ***********************************************************
-Program i C++ ska användaren gissa ett tal mellan 1 och 100
+Program i C++ ska anvÃ¤ndaren gissa ett tal mellan 1 och 100
 ***********************************************************
 Uppgift 1.2
 Kusr:Program i C++
@@ -22,7 +22,7 @@ int main()
 	srand(time(0)); //slumpgenerator
 	numTal = rand() % 100 + 1; // slumptal mellan 1 och 100
 
-	setlocale(LC_ALL, "swedish"); // För svenska tecken
+	setlocale(LC_ALL, "swedish"); // FÃ¶r svenska tecken
 	do
 	{
 		cout << "Gissa ett tal mellan 1 och 100:\n";
@@ -30,25 +30,25 @@ int main()
 		antalForsok++;
 
 		if(numGissa > numTal)
-			cout << "Ditt tal är så högre\n\n";
+			cout << "Ditt tal Ã¤r sÃ¥ hÃ¶gre\n\n";
 
 
 		else if(numGissa < numTal)
-			cout << "Ditt tal är så lägre\n\n";
+			cout << "Ditt tal Ã¤r sÃ¥ lÃ¤gre\n\n";
 
 		else
-			cout << "Grattis! Du gissade rätt på " << antalForsok << " försök!\n\n";
+			cout << "Grattis! Du gissade rÃ¤tt pÃ¥ " << antalForsok << " fÃ¶rsÃ¶k!\n\n";
 
 	} while(numGissa != numTal);
 	/*
 	===============================================
 	cin.ignore(); extraherar tecken upp det angivna
-	numret eller  den angivna tecknen är uppnådd och
-	kasserar dem och det händer i visual studio.
-	Så att cin.ignore(); är en löning till cin.get
+	numret eller  den angivna tecknen Ã¤r uppnÃ¥dd och
+	kasserar dem och det hÃ¤nder i visual studio.
+	SÃ¥ att cin.ignore(); Ã¤r en lÃ¶ning till cin.get
 	===============================================
-	cin.get(); extraherar en enda karaktär från
-	strömmen och returnerar den och  det händer i
+	cin.get(); extraherar en enda karaktÃ¤r frÃ¥n
+	strÃ¶mmen och returnerar den och  det hÃ¤nder i
 	visual studio.
 	===============================================
 	*/

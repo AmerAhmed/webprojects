@@ -1,0 +1,81 @@
+/*
+Jag utgår från korform till utförlig form, 
+så att det är bara utförlig from som 
+jag skrev:
+*/
+@charset "UTF-8";
+html{
+background-color: #CCC;
+background-image: url(imges.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+
+}
+boyd{
+font-style: italic;
+font-variant: normal;
+font-weight: bold;
+font-size: 1em;
+line-height: 1.5;
+font-family: serif;
+}
+.box1,.box2{
+
+border-width: 2px;
+border-style: solid;
+border-color: #ff0000;
+margin-top: 10px;
+margin-right: 5px;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+h1,footer{
+border: 3px;
+border: dotted red;
+background-color: #F5F5DC;
+color: #000;
+font-family: "Merienda One"; 
+}
+div{
+width: 100px;
+height: 100px;
+background: rgb(200,50,50);
+-webkit-transition: width 2s, height 4s; /* Apple webbläser */ 
+transition: width 2s, height 4s;
+}
+
+div:hover {
+width: 300px;
+height: 300px;
+}
+
+.box1,.box2{
+font: 1.4em;
+font: consolas, monospace;
+
+}
+
+div{
+
+background-color: #F5F5DC;
+resize: horizontal;
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+margin: 1em;
+}
+.box1 {
+-webkit-box-flex: 1;
+-ms-flex: 1;
+flex: 1;
+}
+
+.box2{
+-webkit-box-flex: 2;
+-ms-flex: 2;
+flex: 2;
+}

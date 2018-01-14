@@ -1,0 +1,48 @@
+html{
+/*bilds bakgrund paper.gif:*/
+background-image: url(paper.gif);
+}
+
+body {
+/*0.8em lika med 80% och 13px*/
+font-family: Verdana, sans-serif;
+font-size: 0.8em;
+}
+header, footer {
+/*
+heaber och footre får 10px,
+text-färg är svart och
+background-color lightslategrey:
+*/
+padding: 10px;
+color: #000;
+background-color:lightslategrey;
+font-family: "Merienda One";
+}
+
+section{
+/*
+Hela section får margin 5px, 
+padding 10px och background-color
+lightslategrey:
+*/
+margin: 5px;
+padding: 10px;
+background-color: lightslategrey;
+}
+
+div{
+/*
+alla divvar får margin 5px,
+padding 10px och background-color
+white:
+*/
+margin: 5px;
+padding: 10px;
+background-color: white;
+}
+
+
+
+
+

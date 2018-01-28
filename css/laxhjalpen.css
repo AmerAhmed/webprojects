@@ -1,0 +1,374 @@
+@charset "UTF-8";
+html {
+margin: 2%;
+}
+body {
+margin: auto;
+max-width: 860px;
+font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+font-size: 100%;
+}
+header{
+text-align: center;
+}
+/*...*/
+.subpage .hwrap {
+justify-content: space-between;
+}
+/*...*/
+.subpage .hwrap > a,
+nav {
+flex: 0 1 20%;
+min-width: 146px;
+margin-right: 10px;
+}
+/*....*/
+.subpage .hwrap > h1,
+div[role=main] {
+flex: 1 1 300px;
+}
+/*.......*/
+.dborder {
+border: 1px solid #ccc;
+padding: 5px;
+}
+/*...*/
+article {
+padding-bottom: 1em;
+margin-bottom: 2em;
+border-bottom: 3px double #00af64;
+}
+/*....*/
+article:last-child {
+border-bottom: none;
+margin-bottom: 0;
+}
+/**/
+figure {
+float: left;
+margin: 0;
+}
+/**/
+figure img {
+width: 128px;
+height: 128px;
+}
+/**/
+figcaption {
+font: italic bolder 110% sans-serif;
+font-family: inherit;
+text-align: center;
+text-transform: uppercase;
+color: #666;
+}
+/**/
+article p {
+margin-left: 140px;
+hyphens: auto;
+}
+/*.....*/
+.subpage h1 {
+font-size: 2.6rem;
+}
+/***/
+.tagline {
+font-size: 120%;
+padding: 0.5em;
+border-top: 3px double #00AF64;
+border-bottom: 3px double #00AF64;
+margin: 1em 0;
+}
+/*.....*/
+h1 > span {
+color: #a62f00;
+}
+/*...*/
+.menu {
+margin: 1em 0;
+padding: 0;
+}
+/***/
+.menu li {
+margin: 0 0 1rem;
+list-style: none;
+}
+/*...*/
+footer {
+display: block;
+margin-top: 3em;
+text-align: center;
+color: #999;
+}
+/*..*/
+.subpage {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+/**/
+.subpage header,
+.subpage footer {
+flex: 0 0 100%;
+}
+.subpage article{
+flex:  0 0 22%;
+}
+/*...*/
+.menu a:link,
+.menu a:visited {
+text-decoration: none;
+color: #000;
+}
+.menu a:focus,
+.menu a:hover {
+text-decoration: underline;
+color: #A62F00;
+}
+.menu a:active {
+text-decoration: underline;
+color: #FF4900;
+}
+.menu li{
+margin:  0 0 0.2em;
+padding: 0.4em 0;
+box-shadow: inset 0 0 20px #007241;
+border-radius: 50%;
+text-align: center;
+
+}
+h1::first-letter {
+color: #00AF64;
+}
+/*..*/
+.subpage .log{
+width: 146px;
+height: 123px;
+}
+/*..*/
+.hwrap {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+/*..*/
+.hwrap > a{
+margin-right: 15px;
+}
+/*Sista läxhjälpen*/
+/* Första arbeten....*/
+table {
+border-spacing: 0;
+border: 1px solid #d3d3d3;
+width: 96%;
+margin: 1em auto 2em;
+border-radius: 5px;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+/*..*/
+thead {
+font-size: 150%;
+text-shadow: #fff 1px 1px 1px;
+}
+/*...*/
+th,
+td {
+padding: 1.1rem 1.8rem 1.1rem;
+}
+/*..*/
+th {
+padding-top: 1.4rem;
+background: #ddd;
+text-align: left;
+}
+/*..*/
+td {
+border-top: 1px solid #e0e0e0;
+border-right: 1px solid #e0e0e0;
+}
+/*..*/
+th:not(:last-child) {
+border-right: 1px solid #f2f2f2;
+}
+/*..*/
+tr:target {
+background-color: #61d7a4;
+}
+tr:hover {
+background-color: #ff9b73;
+}
+/*..*/
+tr {
+transition: background-color 1s;
+}
+/*..*/
+td:nth-child(1) {
+width: 50px;
+}
+/*..*/
+td:nth-child(2) {
+width: 50px;
+}
+/*sista arebeten*/
+/*Första kontakten*/
+fieldset {
+padding: 1em;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+legend {
+font-size: larger;
+}
+form p {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+label {
+flex: 0 1 10ch;
+text-align: right;
+padding-right: 1ch;
+}
+.reqfield {
+flex: 0 0 2ch;
+order: 1;
+text-align: center;
+padding-right: 0;
+}
+input[type=text],
+input[type=email],
+textarea {
+flex: 1 1 25ch;
+max-width: 300px;
+}
+textarea {
+height: 5em;
+resize: vertical;
+}
+input[type="submit"] {
+display: block;
+margin: auto;
+}
+.nivo-caption {
+/*nivo*/
+text-align: center;
+}
+/* Sista kontkt*/
+/*............................*/
+@media (max-width: 750px) {
+.hwrap > a {
+margin-right: 25px;
+}
+/*....*/
+.subpage .logo {
+width: 209px;
+height: 176px;
+}	
+/***/
+.subpage > header h1 {
+font-size: 400%;
+}
+p.tagline{
+font-size: 105%;
+}
+.subpage article {
+flex: 0 0 44%;
+}
+.tagline button{
+display: none;
+}		
+}	
+@media (max-width: 550px){
+nav,
+div[role=main] {
+flex: 0 0 100%;
+margin: 0;
+}
+.subpage .tagline{
+margin:  0.5em 0 0.2em;
+text-align: right;	
+}
+.tagline button{
+display: inline;
+
+}	
+.menu > li{
+margin: 0 0 0.2em;
+padding: 0.4em 0;
+box-shadow: inset 0 0 10px #007241;
+border-radius: 1em;
+text-align: center;
+
+}
+.subpage .menu{
+margin:  0 0.1em;
+padding: 0;
+max-height: 0;
+overflow: hidden;
+transform: max-height 0.3s;
+}
+.menu.show {
+max-height: 165px;
+}	
+}
+/*ändra responsiv*/
+@media (max-width: 476px) {
+.subpage .hwrap a {
+flex: 0 0 100%;
+}
+.hwrap h1 {
+margin: 0.1em;
+}
+}
+/*ändra responsiv*/
+@media (max-width: 380px)	{
+label {
+flex: 0 0 auto;
+text-align: left;
+padding-right: 0;
+}
+.reqfield {
+order 0;
+}
+input[type=text],
+input[type=email],
+textarea {
+flex: 0 0 100%;
+margin-top: 3px;
+}	
+}
+/*.........................*/
+@media(max-width: 380px) {
+.subpage > header h1{
+ font-size: 300%;	
+}
+.subpage article{
+flex:  0 0 100%;
+}
+figure{
+float: none;
+text-align: center;	
+}
+figcaption{
+width: 116px;
+margin: auto;	
+}
+article p{
+margin-left: 0;
+}
+/*ändra responsiv*/	
+label {
+flex: 0 0 auto;
+text-align: left;
+padding-right: 0;
+}
+.reqfield {
+order 0;
+}
+input[type=text],
+input[type=email],
+textarea {
+flex: 0 0 100%;
+margin-top: 3px;
+}
+}

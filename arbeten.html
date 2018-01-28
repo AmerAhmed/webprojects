@@ -1,0 +1,83 @@
+<!--
+*=======================
+*Inlämnings_Del_3
+*Uppgift_arbeten.html
+*Webbutvecklig_1
+*Handledare:Tom Bergquist
+*@author: Amer Ahmed
+*2017-01-29
+*========================
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Våra tjänster- Läxhjälpen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="css/laxhjalpen.css" title="Finished" rel="stylesheet" />
+	<link rel="stylesheet" href="css/nivo-slider.css" media="screen" />
+	<link rel="stylesheet" href="css/themes/default/default.css" media="screen" />
+	<link href="https//fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body class="subpage">
+	<header>
+		<h1>Läxhjälpen: <span>Våra tjänster</span></h1>
+	</header>
+	<div role="main">
+		<div class="blockslider theme-default">
+			<div id="slider" class="nivoSlider">
+				<a href="#lstuga"><img src="img/1.png" alt="" 
+				title="Läxstuga med dig och dina kompisar" /></a>
+				<a href="#skypeh"><img src="img/2.png" alt=""
+				title="Hjälp via Skype" /></a>
+				<a href="#mailhp"><img src="img/3.png" alt=""
+				title="Hjälp via emeil" /></a>
+				<a href="#videos"><img src="img/4.png" alt="" 
+				title="Vi har också videolektioner" /></a>
+			</div>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Våra tjänster</th>
+					<th>Pris</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="lstuga">
+					<td>Läxstuga för 3-8 deltagare</td>
+					<td>500 kr/tim</td>
+				</tr>
+				<tr id="skypeh">
+					<td>Individuell hjälp via Skype</td>
+					<td>300 kr/tim</td>
+				</tr>
+				<tr id="mailhp">
+					<td>Hjälp via mejl</td>
+					<td>10 kr/tim</td>
+				</tr>
+				<tr id="videos">
+					<td>Åtkomst till våra videos</td>
+					<td>20 kr/tim</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<footer>
+		<p>Posted by: Amer Ahmed</p>
+		<p>Contact information: <a href="mailto:https://github.com/AmerAhmed/webprojects">
+		https://github.com/AmerAhmed/webprojects</a>.</p>
+		<small>&copy; 2018: All rights reserved.</small>
+	</footer>
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="scripts/toggle-menu.js"></script>
+	<script src="scripts/jquery.nivo.slider.pack.js"></script>
+	<script>
+		$('#slider').nivoSlider();
+	</script>
+</body>
+
+</html>

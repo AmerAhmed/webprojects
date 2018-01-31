@@ -1,11 +1,20 @@
 <!--
 *=======================
-*Inlämnings_Del_3
-*Uppgift_läxhjälpen
-*Webbutvecklig_1
-*Handledare:Tom Bergquist
-*@author: Amer Ahmed
-*2017-01-29
+* Inlämnings_Del_3
+* Uppgift_läxhjälpen
+* Webbutvecklig_1
+* Handledare:Tom Bergquist
+* @author: Amer Ahmed
+* Beskrivning:
+* Sidan består av tre
+* huvuksakliga delar
+* bil, webbplatens rukrik
+* och en slags slogan.
+* Huvuksaligt innehåller
+* med fyra rukriker och 
+* texter och information 
+* om copyright.
+* 2017-01-31
 *========================
 -->
 <!DOCTYPE html>
@@ -15,20 +24,21 @@
 	<meta charset="utf-8" />
 	<title>Om oss - Läxhjälpen</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link href="css/laxhjalpen.css" title="Finished" rel="stylesheet" />
-	<link href="https//fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" />
+	<link href="css/laxhjalpen.css" rel="stylesheet" />
+	<link href="laxhjalpen.css" title="Finished" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
 <body class="subpage">
 	<header>
 		<div class="hwrap">
-			<a href="./"><img class="logo"
-			alt="Startsidan" src="img/laxlogo.png"/></a>
+		    <a href="./"><img class="logo" alt="Startsidan" src="img/laxlogo.png" /></a>
 			<h1>Läxhjälpen: <span>Om&nbsp;oss</span></h1>
 		</div>
 		<p class="tagline"></p>
 	</header>
+	<!-- Här nedan är sidans menyn med class="" -->
 	<nav>
 		<ul class="menu">
 			<li><a href="om-oss.html">Vilka vi är&nbsp;&#x3020;</a></li>
@@ -37,6 +47,7 @@
 			<li><a href="contact.php">Kontakt &#x260E;</a></li>
 		</ul>
 	</nav>
+	<!-- Här nedan är sidans innehåll med div role=""-->
 	<div role="main">
 		<article>
 			<figure>
@@ -74,8 +85,7 @@
 			<p>
 				Jag upptäckte att det inte alls var så svårt. Har man bara intresse och bra handledning så lyckas man. Det är viktigt med en bra och tydlig pedagogik för de som är nybörjare. Det fick jag här.Och nu är jag på väg att bli en webbdesigner.</p>
 			<p>
-				Om du vill ha hjälp med <strong>samhällsämnena, fotografering och bildbehandling eller design</strong> då kommer jag snabbt som ögat!
-			</p>
+				Om du vill ha hjälp med <strong>samhällsämnena, fotografering och bildbehandling eller design</strong> då kommer jag snabbt som ögat!</p>
 		</article>
 		<article>
 			<figure>
@@ -87,16 +97,18 @@
 			<p>
 				Jag ångrar inte att jag började med det här trots att jag var rädd för att misslyckas. Man lär sig förstå vad man gör samtidigt som man gör det.</p>
 			<p>
-				Jag kan visa dig <strong>hur du använder datorn för att plugga</strong>, men jag hjälper dig också gärna med <strong>engelska, teknik och matte</strong>.
-			</p>
+				Jag kan visa dig <strong>hur du använder datorn för att plugga</strong>, men jag hjälper dig också gärna med <strong>engelska, teknik och matte</strong>.</p>
 		</article>
 	</div>
-	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
-	<script src="scripts/toggle-menu.js"></script>
+	<!--/div role=""-->
 	<footer>
 		<p>Contact information: <a href="https://github.com/AmerAhmed/webprojects">
-		 https://github.com/AmerAhmed/webprojects</a>.</p>
+		https://github.com/AmerAhmed/webprojects</a>.</p>
 		<small>&copy; 2018 by Amer Ahmed. All rights reserved.</small>
 	</footer>
+	<!-- Här script-filer -->
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="scripts/toggle-menu.js"></script>
 </body>
+
 </html>

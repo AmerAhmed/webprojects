@@ -1,0 +1,96 @@
+/*
+ Hella sidan background-färge lightslategrey
+*******************************************
+Jag anger body färge för  azure
+*************************************
+Jag anger font-family för sans-serif
+*************************************
+Jag flyttar huvudrubrik till center
+*************************************
+Jag anger div1-id billy:
+border: 1px solid purple; 
+padding: 5px;   
+margin: 10px;
+color: darkred;  
+border-radius: 10px;
+*************************************
+Jag anger div2- id bob:
+border: 1px solid purple;
+padding: 5px;
+margin: 10px;
+color: darkgreen; 
+text-align: justify;
+border-radius: 10px;
+*************************************
+ Ett p-element som är
+ närmaste efetföljande syskon
+till ett element som har klassen 
+two och i sin tur är barn till 
+id= bob
+*************************************
+Ett p-element som är
+ närmaste efetföljande syskon
+till ett element som har klassen 
+three och i sin tur är barn till 
+id= billy
+*************************************
+*/
+
+html 
+{
+   background-color: lightslategrey;
+}
+body 
+{
+   background-color: azure; 
+   margin: auto;
+   width: 500px;
+   padding-bottom: 0.1px; /*knep för div margin */
+   font-family: sans-serif; 
+}
+h1 
+{
+  text-align: center; 
+	
+}
+#billy
+{
+  border: 1px solid purple; 
+  padding: 5px;   
+  margin: 10px;
+  color: darkred;
+  border-radius: 10px;
+}
+#bob
+{ 
+  border: 1px solid purple;
+  padding: 5px;
+  margin: 10px;
+  color: darkgreen;
+  border-radius: 10px;
+}
+#bob > .two + p + p
+{
+  font-size: larger;
+}
+.three  
+{
+  font-size: smaller;
+}
+#billy > .three + p 
+{
+  font-size: larger;
+}
+.M
+{
+  background-color: burlywood;
+  border: 1px solid purple;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+h2{
+	color: darkmagenta;
+	text-align: center;
+}

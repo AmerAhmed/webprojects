@@ -1,11 +1,17 @@
-# Här finns plats för alla mindre uppgifter
+# Resources included on the server
 
-Uppgifter som inte är kopplade till demowebbplatsen _Läxhjälpen_ kan sparas i den här mappen.
+In this folder, the resources will be used by server script.
 
-Många av dem , men inte alla, kan också göras på någon av följande platser:
+The file * contact.php * in the html folder requires three files in this folder:
 
- * [JSBin](http://jsbin.com/)
- * [JSFiddle](https://jsfiddle.net/)
- * [CodePen](http://codepen.io/)
- * [Dabblet](http://dabblet.com/)
+  * * config.php *
+  * * Contact-mall.html *
+  * * Sent-mall.html *
 
+These are beyond the web break, so they should not be accessible by
+someone who visits the site.
+
+#The file is just for not being taken with version management.
+#Nivo
+* HTML / CSS / themes *
+* * Nivo

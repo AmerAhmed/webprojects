@@ -1,0 +1,89 @@
+<!--
+*=======================
+* Inlämnings_Del_3
+* Uppgift_kontakt.html
+* Webbutvecklig_1
+* Handledare:Tom Bergquist
+* @author: Amer Ahmed
+* 2017-01-31
+*========================
+-->
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<meta charset="utf-8" />
+<title>Kontakt - Läxhjälpen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="css/laxhjalpen.css" rel="stylesheet" />
+<link href="laxhjalpen.css" title="Finished" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body class="subpage">
+<header>
+	<div class="hwrap">
+		<a href="./"><img class="logo" alt="Startsidan" src="img/laxlogo.png" /></a>
+		<h1>Läxhjälpen: <span>Kontakt</span></h1>
+	</div>
+	<p class="tagline"></p>
+</header>
+<!--class=""-->
+<nav>
+	<ul class="menu">
+		<li><a href="om-oss.html">Vilka vi är &#x3020;</a></li>
+		<li><a href="arbeten.html">Vad vi gör &#x2318;</a></li>
+		<li><a href="blog.php">Blogg &#x272A;</a></li>
+		<li><a href="contact.php">Kontakt &#x260E;</a></li>
+	</ul>
+</nav>
+<div role="main">
+	<h2>Kontaktformulär</h2>
+	<!-- Här man kan vara telefon eller bör också finnas -->
+	<form action="contact.php" method="post">
+		<fieldset>
+			<legend>Vem är du?</legend>
+			<p>
+				<label for="uname">Namn:</label>
+				<label for="uname" class="reqfield">
+				<strong class="required" title="Obigatorisk uppgift">*</strong>
+				</label>
+				<input type="text" name="uname" id="uname" required placeholder="Förnamn Efternamn" />
+			</p>
+			<p>
+				<label for="umail">Mejladress:</label>
+				<label for="umail" class="reqfield">
+				<strong class="required" title="Obigatorisk uppgift">*</strong>
+				</label>
+				<input type="email" name="umail" id="umail" required placeholder="foot@bar.com" />
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Meddelande</legend>
+			<!--p med ärende (name="msubject") liknar p med namn ovan-->
+			<p>
+				<label for="mmessage">Text:</label>
+				<label for="mmessage" class="reqfield">
+				<strong class="required" title="Obigatorisk uppgift">*</strong>
+				</label>
+				<textarea id="mmessage" name="mmessage" required placeholder="Skriv ditt 		 meddelande.Minst 25 tecken."></textarea>
+			</p>
+		</fieldset>
+		<fieldset id="submitbutton">
+			<input value="skicka" type="submit" />
+			<input name="prevent_multiple_submits" value="{$random_string}" type="hidden">
+		</fieldset>
+	</form>
+</div>
+<footer>
+	<p>Contact information: <a href="https://github.com/AmerAhmed/webprojects">
+	https://github.com/AmerAhmed/webprojects</a>.</p>
+	<small>&copy; 2018 by Amer Ahmed. All rights reserved.</small>
+</footer>
+<!--<script-->
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="scripts/toggle-menu.js"></script>
+</body>
+
+</html>

@@ -11,6 +11,6 @@ The file *contact.php* in the html folder requires three files in this folder:
 These are beyond the web break, so they should not be accessible by someone who visits the site.
 
 # The file is just for not being taken with version management.
-*Nivo
+* Nivo
 *html/css/themes*
 *nivo*

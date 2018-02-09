@@ -1,6 +1,6 @@
 
 
-# Webprojects resource
+# Assignment projects resource
 
 * Script resources.
 * Html5 resources.

@@ -2,8 +2,8 @@
 
 # Assignment projects resource
 
-* Script resources.
-* Html5 resources.
-* Css3 resources.
+* Script
+* Html5 
+* Css3 
 
 

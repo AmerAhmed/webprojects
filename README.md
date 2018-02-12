@@ -1,5 +1,5 @@
 # Assignment's project
- All my resource will be here.
+All my assignment and resource will be here.
 ## Here are projects folder
 * Script
 * Html5 

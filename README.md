@@ -4,5 +4,7 @@ All my assignment and resource will be here.
 * Script
 * Html5 
 * Css3 
-
+# Nivo 
+html/css/themes
+*nivo*
 

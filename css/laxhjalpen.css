@@ -6,7 +6,7 @@ Global rules
 */
 
 html {
-    background: #e6e9e9;
+     background: #e6e9e9;
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
     -webkit-font-smoothing: antialiased;
 }
@@ -14,14 +14,14 @@ html {
 body {
 	margin: auto;
 	/* Centrera sidan */
-	background: #fff;
+	
+     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    line-height: 1.5;
     color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
 	max-width: 800px;
 	padding: 2em 2em 4em;
-	font-family: sans-serif;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	/* Ändr rad-radbruten av utrymmesskäl */
 	font-size: 100%;
 	/* Startvärde */
@@ -160,7 +160,7 @@ p {
 
 /*
 ========================
-Subpage rules 
+Subpage rules
 ========================
 */
 
@@ -263,7 +263,7 @@ figure img {
 	height: 128px;
 	animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 3px solid rgba(0, 0, 0, 0.12);
+    border: 2px solid rgba(0, 0, 0, 0.12);
     border-radius: 3px;
 }
 
@@ -372,7 +372,7 @@ td:nth-child(2) {
 
 /*
 ============================
-Form, label, fieldset rules 
+Form, label, fieldset rules
 ============================
 */
 
@@ -489,7 +489,7 @@ input[type="submit"] {
 
 /*
 ==================
-@media responsiv 
+@media responsiv
 ===================
 */
 
@@ -607,7 +607,7 @@ input[type="submit"] {
 		padding-right: 0;
 	}
 	.reqfield {
-		order 0;
+		order: 0;
 		/* Återför till ordningen i HTML-kboden */
 	}
 	input[type=text],
